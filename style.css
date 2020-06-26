@@ -1,0 +1,151 @@
+body::-webkit-scrollbar
+{
+    width: 14px;
+    height: 14px;
+}
+
+body::-webkit-scrollbar-track
+{
+    background-color: #777777;
+}
+
+body::-webkit-scrollbar-thumb
+{
+    background-color: #424242;
+}
+
+body::-webkit-scrollbar-corner 
+{
+    background-color: #65e8ff;
+}
+
+body
+{
+    background-color: #111111;
+    font-family: 'Rubik', sans-serif;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+#header_0
+{
+  color: yellow;
+  font-size: 75px;
+  margin: 250px 0px 0px 125px;
+}
+
+#header_1
+{
+	font-size: 75px;
+	padding: 75px 0px 20px 0px;
+	color: #65e8ff;
+	text-align: center;
+}
+
+#video
+{
+	font-size: 30;
+	color: #65e8ff
+}
+
+#smaler{
+  color: yellow;
+  font-size: 35px;
+  margin: 25px 750px 500px 125px;
+}
+
+.navbar
+  {
+	overflow: hidden;
+  }
+  
+  .navbar a 
+  {
+	position: -ms-page;
+	float: center;
+	color: lightgray;
+	text-align: top;
+	padding: 125px 48px;
+	text-decoration: none;
+	font-size: 20px;
+  }
+  
+  .navbar a:hover 
+  {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  .navbar a.active 
+  {
+	background-color: #65e8ff;
+	color: #161922;
+  }
+
+#container
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#text_0
+{
+  padding: 100px 0px 200px 0px;
+  font-size: 48px;
+  color: lightgrey;
+}
+
+#text_1
+{
+	font-size: 38px;
+	color: lightgray;
+	text-align: center;
+}
+
+.myButton 
+{
+	background-color:transparent;
+	border: solid yellow;
+	display:inline-block;
+	cursor:pointer;
+	color: lightgrey;
+	font-family:Arial;
+	font-size:28px;
+  padding:25px 45px;
+  margin-top: 75px;
+	text-decoration:none;
+}
+
+.myButton:hover 
+{
+	background-color:rgba(211, 211, 211, 0.220);
+}
+ 
+p
+{
+    color: #fff;
+    text-align: center;
+}
+ 
+li
+{
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+}
+ 
+li:hover
+{
+    color: #292929;
+    border: 1px solid #292929;
+    transition: 0.35s;
+}
